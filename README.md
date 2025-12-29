@@ -9,6 +9,15 @@ obstacles with progressive difficulty.
 * **C Key:** Restart the game after Game Over.
 * **Goal:** Dodge the pipes! Speed and spawn frequency increase as your score grows.
 
+## ⚙ How to Run the Project
+Since this game was built using **Scratch**, the `.sb3` file cannot be opened like a standard executable. To play or view the code:
+
+1. Download the `project.sb3` file from this repository.
+2. Go to the [Scratch Online Editor](https://scratch.mit.edu/projects/editor/).
+3. In the top menu, click on **File** -> **Load from your computer**.
+4. Select the `project.sb3` file you just downloaded.
+5. Click the **Green Flag** to start!
+
 ## 🛠️ Technical Implementation (Engineering Perspective)
 
 1. **State Management:** I implemented a global variable `game_running` to control the game's flow. This allows the game to "freeze" upon collision, providing visual feedback to the player (UX) without stopping the entire Scratch engine.
